@@ -1,0 +1,35 @@
+
+#head1{height: 70px;}
+#head1 h1{display: inline-block; position: relative; bottom: 25px; 
+    left: 10px; color:rgb(24, 157, 210);margin: 0px;}
+
+.opt{display: inline-block; text-align: center;}
+#opts{position: relative; bottom: 45px; left: 340px; width: 400px; display: flex; justify-content:space-between; }
+.hedim{ display: inline-block; padding: 5px; background-color: rgb(128, 128, 128,0.1);
+     border: 5px solid rgb(128, 128, 128,0.4); border-radius: 50%;}
+.hedim:hover{background-color: rgb(128, 128, 128,0.5); border: 5px solid rgb(26, 148, 196);}
+.opt h5{margin: 1px;}
+#head2{height:40px;  display: flex;align-items: center;
+     background-color: rgb(26, 148, 196); position: relative; top: 5px;}
+button{background-color: rgb(255, 165, 0);  border-radius: 0px 5px 5px 0px; height:27px; border: none;}
+#head2 input{height: 25px;  border-radius: 5px 0px 0px 5px; text-align: center; width: 300px; border: none;}
+#sec{ background-color: rgb(26, 148, s196,09); position: relative; left: 40px;}
+#flow{height: 25px;}
+#bod{text-align: center; display: inline-block;}
+#row1{position: absolute; right: 0px; top: 230px;}
+.law div{border: 1px solid rgb(26, 148, 196); width:216px ; height:auto; padding: 30px; border-radius: 10px; text-align: center;}
+.law {display: flex; width: 82%; justify-content: space-around; margin-top: 20px; }
+.law div h4{margin: 10px;}
+.law div p{margin: 10px;}
+.imgs{display: inline-block; position: absolute; top: 28%; left: 23%;}
+#row2{position:absolute; right: 0px; top: 490px;}
+.law div:hover{background-color: rgb(128, 128, 128,0.2);}
+#all{visibility:hidden;}
+#col{width: 18%; height: 400px; padding: 0px; position: relative; top: 25px; visibility:hidden ;  }
+#col h3{margin: 15px 0px 15px 0px; padding:15px 0px 15px 0px ;
+      border-bottom: 2px solid rgb(128, 128, 128,0.6);}
+#all h2{ display: inline-block; position: absolute; top: 28%; left: 50%;}
+#col h2{display: inline-block; margin: 5px; position: relative; left: 10px; border-bottom: 5px solid rgb(128, 128, 128,0.6)}
+#col li:hover{background-color: rgb(128, 128, 128,0.5); border-radius: 7px;}
+a{text-decoration: none; color: black;}
+#mainc{border: 3px solid rgb(255, 0, 255,0.5); width:280px; height:fit-content; position: absolute; top: 35%; left: 40%; border-radius:15px;}
